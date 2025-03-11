@@ -88,7 +88,7 @@ public class S1_SignIn extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (validation()){
-                    Intent intent = new Intent(S1_SignIn.this, MainActivity.class);
+                    Intent intent = new Intent(S1_SignIn.this, Splash.class);
                     startActivity(intent);
                     finish();
                 }
@@ -119,17 +119,15 @@ public class S1_SignIn extends AppCompatActivity {
                             Toast.makeText(this, "Главный домен содержит меньше 2 симолов", Toast.LENGTH_SHORT).show();
                             return false;
                         }
-
-                        continue;
+                    }else{
+                        return true;
                     }
 
-                    return false;
-                }
-                numChar ++;
-            }
-        }
 
-        Log.d("S1_SignIn",String.valueOf(email.isEmpty()));
+                }
+            }
+            numChar ++;
+        }
 
         return true;
     }

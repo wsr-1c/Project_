@@ -7,8 +7,22 @@
     <string name="login">Log in</string>
     <string name="are_u_new">Are you new to it?</string>
     <string name="create">Create a user</string>
-    <string name="title_activity_home">Home</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home" translatable="false">Home</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="title_like" translatable="false">Like</string>
+    <string name="title_lk" translatable="false">User</string>
+    <string name="wellcome" translatable="false">Wellcome</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="startWay" translatable="false">Let’s Start Journey </string>
+    <string name="UmCollection" translatable="false">Smart, Gorgeous &amp; Fashionable Collection Explor Now</string>
+    <string name="Power" translatable="false">You Have the Power To</string>
+    <string name="Room" translatable="false">There Are Many Beautiful And Attractive Plants To Your Room</string>
+    <string name="Continie" translatable="false">Continie</string>
+    <string name="Category" translatable="false">Select Category</string>
+    <string name="Popular" translatable="false">Popular Shoes</string>
+    <string name="all" translatable="false">See all</string>
+    <string name="Action" translatable="false">New Arrivals</string>
+    <string name="Explore" translatable="false">Explore</string>
 </resources>

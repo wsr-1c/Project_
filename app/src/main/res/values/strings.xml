@@ -30,4 +30,17 @@
     <string name="SneakerShop" translatable="false">Sneaker Shop</string>
     <string name="Search" translatable="false">Search</string>
 
+    <string name="RegisterAccount">Register Account</string>
+    <string name="YourName">Your Name</string>
+    <string name="SingUp">Sing Up</string>
+    <string name="YourName">Your Name</string>
+    <string name="SingIn">Sing In</string>
+    <string name="NewUser">Already Have Account</string>
+    <string name="Create">Log In</string>
+    <string name="qeustion">\n?</string>
+    <string name="Forgot">Forgot Password</string>
+    <string name="EnterEmail">Enter your Email account to reset
+your password</string>
+    <string name="Sned">Send</string>
+
 </resources>

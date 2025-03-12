@@ -32,15 +32,17 @@
 
     <string name="RegisterAccount">Register Account</string>
     <string name="YourName">Your Name</string>
-    <string name="SingUp">Sing Up</string>
+    <string name="SingUp">Register Account</string>
+    <string name="SingUP2">Sing Up</string>
     <string name="YourName">Your Name</string>
     <string name="SingIn">Sing In</string>
     <string name="NewUser">Already Have Account</string>
     <string name="Create">Log In</string>
-    <string name="qeustion">\n?</string>
+    <string name="qeustion">\?</string>
     <string name="Forgot">Forgot Password</string>
     <string name="EnterEmail">Enter your Email account to reset
 your password</string>
+    <string name="Media">Fill your details or continue with social media</string>
     <string name="Sned">Send</string>
 
 </resources>

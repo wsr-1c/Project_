@@ -73,10 +73,10 @@
             android:layout_marginTop="22dp"
             android:text="@string/Category"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout8" />
+            app:layout_constraintTop_toBottomOf="@+id/block_perehod" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout8"
+            android:id="@+id/block_perehod"
             android:layout_width="0dp"
             android:layout_height="52dp"
             android:layout_marginStart="20dp"
@@ -92,19 +92,6 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
-
-                <EditText
-                    android:id="@+id/editTextText"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:background="@null"
-                    android:backgroundTint="@color/Block"
-                    android:ems="10"
-                    android:inputType="text"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/imageView3"
@@ -145,12 +132,12 @@
                 android:text="@string/Explore"
                 android:textSize="36dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+                app:layout_constraintEnd_toStartOf="@+id/shop"
                 app:layout_constraintStart_toEndOf="@+id/imageButton3"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/shop"
                 android:layout_width="44dp"
                 android:layout_height="44dp"
                 android:layout_marginEnd="16dp"
@@ -159,5 +146,15 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/icon_foreground" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageButton
+            android:id="@+id/like"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/like_foreground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

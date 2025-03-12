@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Favorite">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strelka" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/likes" />
+
+    <TextView
+        android:id="@+id/textView_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Favorite"
+        android:textAlignment="center"
+        android:textColor="@color/Text"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        tools:layout_editor_absoluteY="38dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="669dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutw1"
+            android:layout_width="160dp"
+            android:layout_height="182dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/Block"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="9dp"
+                android:background="@color/Background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/imageVieww2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/likes" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imageVieww3"
+                android:layout_width="142dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="9dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/bot_4_foreground" />
+
+            <TextView
+                android:id="@+id/textVieww4"
+                android:layout_width="142dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="BEST SELLER"
+                android:textColor="@color/Accent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageVieww3" />
+
+            <TextView
+                android:id="@+id/textVieww5"
+                android:layout_width="142dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Nike Air Max"
+                android:textColor="@color/Hint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textVieww4" />
+
+            <TextView
+                android:id="@+id/textVieww6"
+                android:layout_width="60dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="₽752.00"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textVieww5" />
+
+            <ImageButton
+                android:id="@+id/imageButtonw1"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/plus" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout13"
+            android:layout_width="160dp"
+            android:layout_height="182dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/Block"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="9dp"
+                android:background="@color/Background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/likes" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="142dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="9dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/bot_4_foreground" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="142dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="BEST SELLER"
+                android:textColor="@color/Accent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+            <TextView
+                android:id="@+id/textView_11"
+                android:layout_width="142dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Nike Air Max"
+                android:textColor="@color/Hint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@+id/textView_12"
+                android:layout_width="60dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="₽752.00"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_11" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/plus" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout12"
+            android:layout_width="160dp"
+            android:layout_height="182dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/Block"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout13">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="9dp"
+                android:background="@color/Background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/likes" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="142dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="9dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/bot_4_foreground" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="142dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="BEST SELLER"
+                android:textColor="@color/Accent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="142dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Nike Air Max"
+                android:textColor="@color/Hint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="60dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="₽752.00"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <ImageButton
+                android:id="@+id/imageButtonq"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/plus" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutq1"
+            android:layout_width="160dp"
+            android:layout_height="182dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/Block"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout12">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="9dp"
+                android:background="@color/Background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/imageViewq2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/likes" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imageViewq3"
+                android:layout_width="142dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="9dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/bot_4_foreground" />
+
+            <TextView
+                android:id="@+id/textViewq4"
+                android:layout_width="142dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="BEST SELLER"
+                android:textColor="@color/Accent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewq3" />
+
+            <TextView
+                android:id="@+id/textViewq5"
+                android:layout_width="142dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Nike Air Max"
+                android:textColor="@color/Hint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewq4" />
+
+            <TextView
+                android:id="@+id/textViewq6"
+                android:layout_width="60dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="₽752.00"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewq5" />
+
+            <ImageButton
+                android:id="@+id/imageButtonq1"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/plus" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoute1"
+            android:layout_width="160dp"
+            android:layout_height="182dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/Block"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutw1">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="9dp"
+                android:background="@color/Background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/imageViewe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/likes" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imageViewe3"
+                android:layout_width="142dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="9dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/bot_4_foreground" />
+
+            <TextView
+                android:id="@+id/textViewe4"
+                android:layout_width="142dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="BEST SELLER"
+                android:textColor="@color/Accent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewe3" />
+
+            <TextView
+                android:id="@+id/textViewe5"
+                android:layout_width="142dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Nike Air Max"
+                android:textColor="@color/Hint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewe4" />
+
+            <TextView
+                android:id="@+id/textViewe6"
+                android:layout_width="60dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="₽752.00"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewe5" />
+
+            <ImageButton
+                android:id="@+id/imageButtone1"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/plus" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutr1"
+            android:layout_width="160dp"
+            android:layout_height="182dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/Block"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoute1">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="9dp"
+                android:background="@color/Background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/imageViewr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/likes" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imageViewr3"
+                android:layout_width="142dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="9dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/bot_4_foreground" />
+
+            <TextView
+                android:id="@+id/textViewr4"
+                android:layout_width="142dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="BEST SELLER"
+                android:textColor="@color/Accent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewr3" />
+
+            <TextView
+                android:id="@+id/textViewr5"
+                android:layout_width="142dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Nike Air Max"
+                android:textColor="@color/Hint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewr4" />
+
+            <TextView
+                android:id="@+id/textViewr6"
+                android:layout_width="60dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="₽752.00"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewr5" />
+
+            <ImageButton
+                android:id="@+id/imageButtonr1"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/plus" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@ package com.example.project_;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
 import androidx.annotation.NonNull;
@@ -18,12 +19,13 @@ public class StateAdapter extends ArrayAdapter<State> {
 
     public StateAdapter(@NonNull Context context, int resource, @NonNull List<State> objects) {
         super(context, resource, objects);
+        this.context = context;
+
     }
 
-    public View getView(){
-        View view = new View(this.context);
+    public View getView(int l, View parent, ViewGroup viewGroup){
+        View view = new View(context);
 
-        inflater.getContext();
 
         return view;
     }

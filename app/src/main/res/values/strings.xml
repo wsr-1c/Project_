@@ -25,4 +25,9 @@
     <string name="all" translatable="false">See all</string>
     <string name="Action" translatable="false">New Arrivals</string>
     <string name="Explore" translatable="false">Explore</string>
+
+    <string name="Favorite" translatable="false">Favorite</string>
+    <string name="SneakerShop" translatable="false">Sneaker Shop</string>
+    <string name="Search" translatable="false">Search</string>
+
 </resources>

@@ -14,6 +14,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Forgot extends AppCompatActivity {
+    //Новацкий Егор 12.03.2025
     ImageButton back;
     Button send;
 
@@ -33,6 +34,7 @@ public class Forgot extends AppCompatActivity {
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Проверка данных перед отправкой
                 if (validEmail()){
                     Intent intent = new Intent(Forgot.this, S1_SignIn.class);
                     startActivity(intent);
@@ -45,6 +47,7 @@ public class Forgot extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Возвращение назад
                 Intent intent = new Intent(Forgot.this, S1_SignIn.class);
                 startActivity(intent);
                 finish();

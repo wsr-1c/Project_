@@ -44,5 +44,6 @@
 your password</string>
     <string name="Media">Fill your details or continue with social media</string>
     <string name="Sned">Send</string>
+    <string name="Send">Send</string>
 
 </resources>

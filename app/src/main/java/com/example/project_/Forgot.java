@@ -22,5 +22,11 @@ public class Forgot extends AppCompatActivity {
         });
 
 
+
     }
+
+    public boolean validEmail(){
+        return true;
+    }
+
 }

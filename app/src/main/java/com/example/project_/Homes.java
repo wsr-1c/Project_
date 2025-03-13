@@ -16,7 +16,7 @@ public class Homes extends AppCompatActivity {
     // Новацкий Егор Сергеевич 12.03.2025
 
     // кнопки для переходов
-    public ImageButton like, shop;
+    public ImageButton like, shop, menu;
     // при нажатии на область перхеход на активити поиска
     View search;
 
@@ -58,6 +58,15 @@ public class Homes extends AppCompatActivity {
             public void onClick(View view) {
                 // Переход на активити Search
                 Intent intent = new Intent(Homes.this, Search.class);
+                startActivity(intent);
+            }
+        });
+        menu = findViewById(R.id.imageButton3);
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                                // Переход в меню
+                Intent intent = new Intent(Homes.this, Menu.class);
                 startActivity(intent);
             }
         });
